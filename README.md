@@ -1,5 +1,6 @@
 # backup-script
 Automated backup script using rsync
+
 echo "# Backup Script
 
 This script automates daily backups of critical system directories using **rsync**. It ensures that backups are stored on a remote TrueNAS server, organized by hostname and date.
@@ -13,7 +14,7 @@ This script automates daily backups of critical system directories using **rsync
 ## Installation
 1. Clone the repository:
    \`\`\`
-   git clone https://github.com/<your-username>/backup-script.git
+   git clone https://github.com/sya-one/backup-script.git
    \`\`\`
 2. Make the script executable:
    \`\`\`
